@@ -1,0 +1,11 @@
+version: '2'
+services:
+  proceduresauth-postgresql:
+    image: postgres:11.4
+    # volumes:
+    #     - ~/volumes/jhipster/ProceduresAuth/postgresql/:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_USER=ProceduresAuth
+      - POSTGRES_PASSWORD=
+    ports:
+      - 5432:5432

@@ -1,0 +1,46 @@
+{
+  "generator-jhipster": {
+    "applicationType": "uaa",
+    "gitCompany": "",
+    "baseName": "ProceduresAuth",
+    "packageName": "com.vencislav",
+    "packageFolder": "com/vencislav",
+    "serverPort": 9999,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "gatling",
+      "protractor"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "6.2.0",
+    "jwtSecretKey": "MjRlMTdiMzlmZWMzMTA4ZGI3ODQ1NmU2NDNkNzQ5MWMxOTE3OGQwZmEwYWIwMjY3OTk5NmIxYzgzMTU5NjI1OTE0Y2E2N2I0ZDM0YzU3ZTQ2MTM1MDI2OWQ2MjVkOGNmNmUxYzk0MjkwZjE2MzJiNzg0ODJkZjdjYzdmZjEzZTM=",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "blueprints": [],
+    "skipClient": true
+  },
+  "git-provider": "GitHub",
+  "git-company": "venci78",
+  "repository-name": "procedures-auth"
+}
